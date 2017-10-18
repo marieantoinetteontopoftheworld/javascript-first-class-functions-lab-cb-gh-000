@@ -21,3 +21,5 @@ function multiplier(value1, value2) {
 
 var doublerWithBind = multiplier.bind(null, 2);
 var triplerWithBind = multiplier.bind(null, 3);
+
+triplerWithBind(3);
